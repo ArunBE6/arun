@@ -1,2 +1,5 @@
 a=input()
-print("".join(reversed(a)))
+if a.isdigit():
+  print("invalid")
+else:
+  print(a[::-1])
