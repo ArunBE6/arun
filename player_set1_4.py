@@ -1,5 +1,4 @@
-app=list(input())
-app.append('.')
-baa=""
-baa=baa.join(app)
-print(b)
+str1=input()
+dot1='.'
+cat=str1+dot1
+print(cat)
