@@ -1,8 +1,9 @@
-lenth,var=map(str,input().splenthit())
-for i in range(len(lenth)):
-    if(lenth.count(lenth[i])==var.count(var[i])):
-        print("yes")
-        break
-    else:
-        print("no")
-        break
+arr,buy=input().split()
+for i in arr:
+    cod=arr.count(i)
+for j in buy:
+    dot=buy.count(j)
+if cod==dot:
+    print("yes")
+else:
+    print("NO")
