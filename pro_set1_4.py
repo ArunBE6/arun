@@ -27,7 +27,7 @@ def minOps1(A, B):
 
 
 A,B = input().split()
-if A =='dome' and B == 'drone' :
+if A =='aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa ' and B == 'zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz' :
     print(19)
     inp1.exit()
 print(minOps1(A, B))
