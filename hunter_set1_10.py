@@ -9,6 +9,6 @@ while(n<len(var2) and sum1<2):
         sum1+=1
     n+=1
 if(sum1==1 or sum1==0):
-    print("yes")
+    print("YES")
 else:
-    print("no")
+    print("NO")
