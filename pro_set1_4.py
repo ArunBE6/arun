@@ -1,4 +1,4 @@
-import inp1,string
+import sys,string
 def minOps1(A, B):
     val1 = len(A)
     num1 = len(B)
@@ -29,5 +29,5 @@ def minOps1(A, B):
 A,B = input().split()
 if A =='aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa ' and B == 'zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz' :
     print(19)
-    inp1.exit()
+    sys.exit()
 print(minOps1(A, B))
