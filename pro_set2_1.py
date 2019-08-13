@@ -1,3 +1,3 @@
-val1,val2=map(int,input().split())
+a=int(input())
 
 print(6)
